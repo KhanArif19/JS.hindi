@@ -35,3 +35,29 @@ const myFunctions = function(){
 console.log(typeof anotherId);
 
 // https://tc39.es/ecma262/2023/multipage/ecmascript-language-expressions.html#sec-typeof-operator
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap(Non-Primitive)
+
+let myYoutubename = "Knowledge Hub"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(anothername);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Arif@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
